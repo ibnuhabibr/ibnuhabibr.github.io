@@ -3,9 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Ibnu Habib's Portfolio - Informatics Engineer Student showcasing projects and skills.">
+    <title>Ibnu Habib - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h1 class="typing">Ibnu Habib</h1>
+        <p>Informatics Engineer Student</p>
+        <a href="#contact" class="btn">Contact Me</a>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am currently studying as an Informatics Engineer at The Electronic Engineering Polytechnic Institute of Surabaya (EEPIS). I am passionate about technology and always eager to learn new things.</p>
+        <img src="profile.jpg" alt="Ibnu Habib">
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>My Project</p>
+            <a href="https://github.com/users/ibnuhabibr/projects/3" class="btn">View Project</a>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <a href="resume.pdf" download class="btn">Download Resume</a>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message"></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+        <div class="social">
+            <p>Phone: +6285645970893</p>
+            <p>Instagram: <a href="https://www.instagram.com/ibnuhabibr">@ibnuhabibr</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/ibnuhabib">Ibnu Habib</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Ibnu Habib. All rights reserved.</p>
+    </footer>
+
+    <script src="main.js"></script>
 </body>
 </html>
